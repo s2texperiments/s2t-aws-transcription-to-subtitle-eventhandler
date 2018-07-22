@@ -13,7 +13,7 @@ describe('eventhandler', () => {
     let underTest;
 
     beforeEach(() => {
-        s3GetObjectFake = fake.resolves();
+        s3GetObjectFake = fake.resolves(getExpectedResponse('expectedS3GetObjectResponse.json'));
         s3PutObjectFake = fake.resolves();
         awsTranscriptionToSubtitleFake = fake.resolves(getSubtitle('expectedSubtitle.vtt'));
 
@@ -37,7 +37,7 @@ describe('eventhandler', () => {
         expect(s3GetObjectParam.Key).to.equal('aws/raw-transcription/284/745.json');
 
         let [awsTranscriptionToSubtitleParam] = awsTranscriptionToSubtitleFake.firstCall.args;
-        expect(awsTranscriptionToSubtitleParam.event).to.deep.equal(getExpectedResponse('expectedS3GetObjectResponse.json'))
+        expect(awsTranscriptionToSubtitleParam).to.deep.equal({some: 'content'});
 
         let [s3PutObjectParam] = s3PutObjectFake.firstCall.args;
         expect(s3PutObjectParam.Bucket).to.equal('s2t-bucket-s2tappbucket-6fcig9aptjr0');

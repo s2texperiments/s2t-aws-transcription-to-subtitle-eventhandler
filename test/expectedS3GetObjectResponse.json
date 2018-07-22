@@ -1,0 +1,8 @@
+{
+  "Metadata": {
+    "api-key-id": "284",
+    "pid": "745",
+    "transcribe-provider": "aws"
+  },
+  "Body": "{\"some\":\"content\"}"
+}
