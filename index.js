@@ -2,7 +2,7 @@ const fetch = require("node-fetch");
 
 exports.handler = async (event) => {
 
-    console.log(`Event: ${JSON.stringify(event)}`);
+    console.log(`REQUEST: ${JSON.stringify(event)}`);
     let {
         Records: [{
             Sns: {
