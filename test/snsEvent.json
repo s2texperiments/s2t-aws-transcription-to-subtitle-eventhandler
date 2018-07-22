@@ -1,0 +1,35 @@
+{
+  "Records": [
+    {
+      "EventSource": "aws:sns",
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "arn:aws:sns:eu-west-1:099687127161:s2t-aws-s2tAwsTranscriptionCompleted-BDXZOMFVPIDA:31bf160f-6b5b-458d-bdef-31dc78aae957",
+      "Sns": {
+        "Type": "Notification",
+        "MessageId": "817f70b5-a2d1-5b0e-bcc6-237b80782875",
+        "TopicArn": "arn:aws:sns:eu-west-1:099687127161:s2t-aws-s2tAwsTranscriptionCompleted-BDXZOMFVPIDA",
+        "Subject": null,
+        "Message": "{\"TranscriptFileUri\":\"https://s3.eu-west-1.amazonaws.com/aws-transcribe-eu-west-1-prod/099687127161/973_-_612/asrOutput.json?X-Amz-Security-Token=FQoDYXdzED4aDOIZ3nwDwKZ%2BB8UQYSK3A1xjs2uHokz9R1TqH9xE6ked%2F9HNUQubNpw399%2FC9uRxV4hpXas8aX0TpM2VMDIrDSwsBixJb1cnCXOhfOR5A5AB9j9hAdsZLCyqVFFQzfLCdoM%2BdE2D0daBhXoNs0DikqKhGigKvzpqNlsNZGeQ6dZ22UdH1jrpTQj1qhzFkxz8Z7QAOQTb%2BQngb88f3h%2BZXelGh7ZJ9F8JJN3r7Ej74OMdjjfS6boq4uBNcy7FgAn7s0LlywHsrde8S47n4R1SdYwzHqJkEfVIKhWrXhJfXXplEqYBQiMcUAwH3aFJrkNu55FxxtjeKurN20hxtwdTOYrYzyq0fJyA2px8Skc%2Bia82K90R96pnl3jzf4tkR8LJ%2BudpDgNpIJquUYbf6Ah2LRfTF%2B1pIwYaBkl%2FbxMdTemh8nTMJS7sT59MY9F7qGRmsLtMgURqMocjqjCTJm8lTSCU%2F1%2BPUq2frJ60VCrrdM0bKBzAJ4LBd69ZQzUrKSia%2F%2FzvUVWdywrZnCdTYGAcsfx0o7N7%2Fxicg4YkHCTE%2F%2FMkpbbamrUyteSFSkNUqPVlmNfV5CHGBZ0a2JyrG1gJE6iSR%2FfX%2FBgo8pbQ2gU%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180722T060913Z&X-Amz-SignedHeaders=host&X-Amz-Expires=899&X-Amz-Credential=ASIAIHOAWRSNTINQTVKQ%2F20180722%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=84cffe59547a04e42bbf0c3b352c8c608f6918ab0c7ae26f3e61cd11383e0f2e\"}",
+        "Timestamp": "2018-07-22T06:12:57.827Z",
+        "SignatureVersion": "1",
+        "Signature": "bACGUkPxm/fhDuFzPVQu750iDgNVzWyBSlBvP33UC4l6WfmntvW2eUQxH5Zo+nX9v+dhouha1N7hThrC7JiYMJYbHQzouss2I6lQ3MyHpjQ6J8EffddzmxkH4Oq9yYDVJy3rS0V8cJiyu9ApbJZ4aGqV7ueot5NcFJez7CdfsazO1wA89ipR1ODnQC4CQDPhmSP7fASAPvVn7U2sye3Fvw8cMbodKT+r3OPKZ29etCmpM1s9QmQ56jgq+gT2GVminhNbmyu7XpURdqQSG1ffTIB4dJ3l8EUtn4RHj6vr6j5D1wXZS73//sneq3Krty7AAFCu9RY4zf588Xt2PB0AHg==",
+        "SigningCertUrl": "https://sns.eu-west-1.amazonaws.com/SimpleNotificationService-eaea6120e66ea12e88dcd8bcbddca752.pem",
+        "UnsubscribeUrl": "https://sns.eu-west-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:eu-west-1:099687127161:s2t-aws-s2tAwsTranscriptionCompleted-BDXZOMFVPIDA:31bf160f-6b5b-458d-bdef-31dc78aae957",
+        "MessageAttributes": {
+          "api-key-id": {
+            "Type": "String",
+            "Value": "973"
+          },
+          "pid": {
+            "Type": "String",
+            "Value": "612"
+          },
+          "transcribe-provider": {
+            "Type": "String",
+            "Value": "aws"
+          }
+        }
+      }
+    }
+  ]
+}
