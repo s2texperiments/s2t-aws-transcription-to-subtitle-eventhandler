@@ -1,0 +1,38 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.0",
+      "eventSource": "aws:s3",
+      "awsRegion": "eu-west-1",
+      "eventTime": "2018-07-22T19:15:16.968Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "AWS:AROAIBIWUFNSAG2GBXM6G:s2t-aws-s2tCompletedAwsTranscriptionJob-4IH0I5JR5D0E"
+      },
+      "requestParameters": {
+        "sourceIPAddress": "52.16.96.91"
+      },
+      "responseElements": {
+        "x-amz-request-id": "CD7B2AFB1E08C227",
+        "x-amz-id-2": "Ak32wsava8QXvXdroS2IN8kzkWMsZxF8kMkRz3sHA1/Aw9Uqpvg+27tm2z3Qx+yc39UQq8xZo6Q="
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "arn:aws:cloudformation:eu-west-1:099687127161:stack/s2t-aws/f7afa990-8de2-11e8-94cb-50a686326636:s3EventNotifier:s2tNotifyOnIncomingS3RawTranscriptionAws",
+        "bucket": {
+          "name": "s2t-bucket-s2tappbucket-6fcig9aptjr0",
+          "ownerIdentity": {
+            "principalId": "A2QDNA3CEYVC33"
+          },
+          "arn": "arn:aws:s3:::s2t-bucket-s2tappbucket-6fcig9aptjr0"
+        },
+        "object": {
+          "key": "aws/raw-transcription/284/745.json",
+          "size": 2346,
+          "eTag": "57543b3c9b2d7f1e145008e1eaa838dd",
+          "sequencer": "005B54D7C4E683E8C8"
+        }
+      }
+    }
+  ]
+}

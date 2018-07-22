@@ -1,5 +1,5 @@
 {
-  "name": "s2t-completed-aws-transcription-message-to-subtitle-eventhandler",
+  "name": "s2t-aws-transcription-to-subtitle-eventhandler",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,6 +17,7 @@
     "sinon": "^6.0.0"
   },
   "dependencies": {
+    "aws-transcription-to-subtitle": "^1.1.0",
     "node-fetch": "^2.1.2"
   }
 }
