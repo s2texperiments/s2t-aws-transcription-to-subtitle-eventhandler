@@ -6,12 +6,14 @@ exports.handler = async (event) => {
     console.log(`REQUEST: ${JSON.stringify(event)}`);
     let {
         Records: [{
-            s3: {
-                bucket:{
-                    name:bucket
-                },
-                object:{
-                    key
+            Sns: {
+                MessageAttributes: {
+                    bucket: {
+                        Value: bucket
+                    },
+                    key: {
+                        Value: key
+                    }
                 }
             }
         }]

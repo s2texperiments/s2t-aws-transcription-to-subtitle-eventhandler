@@ -1,0 +1,43 @@
+{
+    "Records": [
+        {
+            "EventSource": "aws:sns",
+            "EventVersion": "1.0",
+            "EventSubscriptionArn": "arn:aws:sns:eu-west-1:099687127161:s2t-backend-s2tS3IncomingRawTranscription-1RB8LVBNSLHOM:c9d0acdb-7abd-46b4-81e9-310fb7f12811",
+            "Sns": {
+                "Type": "Notification",
+                "MessageId": "dd55d62b-95a3-589e-806d-85f7ab552857",
+                "TopicArn": "arn:aws:sns:eu-west-1:099687127161:s2t-backend-s2tS3IncomingRawTranscription-1RB8LVBNSLHOM",
+                "Subject": null,
+                "Message": "placeholder",
+                "Timestamp": "2018-08-01T23:05:26.771Z",
+                "SignatureVersion": "1",
+                "Signature": "FwhZug/HDX9kyNAeTGsnKPdMGVX+Ja0KoJ6cDuRwqGoCtrx0FeascQKHHwJo4v/7zCIUF3/N0E5M+7opJ2F+9Y1ut7Co8GSaDl5puhz6Ey4VXu9dJAFPQTcj0huAWvbEWEMKsiGk5FwQthY6xdTYlV9fR5Ba6t0SKCXb8AGGjKEEKK65P94bEZP1ZFXLU2P1t43qLNHtvJp766tkYNBfp3DD4tr8Av+3TBEC7ifBc5nDrysL9EHhDqHWVHBZbPkX8x53N3Vv1uLdyxxa1sqHan/QNu6Ef70vZzJRQH7V/Y4/SPEQvChyFSKBFSk6W3UMXJZKoOi176jWngHICWChjA==",
+                "SigningCertUrl": "https://sns.eu-west-1.amazonaws.com/SimpleNotificationService-eaea6120e66ea12e88dcd8bcbddca752.pem",
+                "UnsubscribeUrl": "https://sns.eu-west-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:eu-west-1:099687127161:s2t-backend-s2tS3IncomingRawTranscription-1RB8LVBNSLHOM:c9d0acdb-7abd-46b4-81e9-310fb7f12811",
+                "MessageAttributes": {
+                    "bucket": {
+                        "Type": "String",
+                        "Value": "s2t-bucket-s2tappbucket-6fcig9aptjr0"
+                    },
+                    "api-key-id": {
+                        "Type": "String",
+                        "Value": "284"
+                    },
+                    "pid": {
+                        "Type": "String",
+                        "Value": "745"
+                    },
+                    "transcribe-provider": {
+                        "Type": "String",
+                        "Value": "aws"
+                    },
+                    "key": {
+                        "Type": "String",
+                        "Value": "raw-transcription/284/745.json"
+                    }
+                }
+            }
+        }
+    ]
+}

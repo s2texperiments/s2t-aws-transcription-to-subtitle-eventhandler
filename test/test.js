@@ -30,11 +30,11 @@ describe('eventhandler', () => {
 
     it('succeed', async () => {
 
-        await underTest.handler(getEventData('/givenS3EventData.json'));
+        await underTest.handler(getEventData('/givenSnsEventData.json'));
 
         let [s3GetObjectParam] = s3GetObjectFake.firstCall.args;
         expect(s3GetObjectParam.Bucket).to.equal('s2t-bucket-s2tappbucket-6fcig9aptjr0');
-        expect(s3GetObjectParam.Key).to.equal('aws/raw-transcription/284/745.json');
+        expect(s3GetObjectParam.Key).to.equal('raw-transcription/284/745.json');
 
         let [awsTranscriptionToSubtitleParam] = awsTranscriptionToSubtitleFake.firstCall.args;
         expect(awsTranscriptionToSubtitleParam).to.deep.equal({some: 'content'});
