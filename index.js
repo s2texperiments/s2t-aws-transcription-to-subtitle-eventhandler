@@ -39,7 +39,7 @@ exports.handler = async (event) => {
 
     return s3Api.putObject({
         Bucket: bucket,
-        Key: `aws/subtitle/${Metadata['api-key-id']}/${Metadata['pid']}.vtt`,
+        Key: `subtitle/${Metadata['api-key-id']}/${Metadata['pid']}.vtt`,
         Body: vtt,
         Metadata
     });

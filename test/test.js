@@ -41,7 +41,7 @@ describe('eventhandler', () => {
 
         let [s3PutObjectParam] = s3PutObjectFake.firstCall.args;
         expect(s3PutObjectParam.Bucket).to.equal('s2t-bucket-s2tappbucket-6fcig9aptjr0');
-        expect(s3PutObjectParam.Key).to.equal('aws/subtitle/284/745.vtt');
+        expect(s3PutObjectParam.Key).to.equal('subtitle/284/745.vtt');
         expect(s3PutObjectParam.Body).to.equal(getSubtitle('expectedSubtitle.vtt'));
         expect(s3PutObjectParam.Metadata['api-key-id']).to.equal('284');
         expect(s3PutObjectParam.Metadata['pid']).to.equal('745');
